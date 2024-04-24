@@ -84,31 +84,14 @@
                 </ul>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#ui-portfolio" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Portfolios</span>
-                <i class="menu-arrow"></i>
-                <i class="mdi mdi-contacts menu-icon"></i>
-              </a>
-              <div class="collapse" id="ui-portfolio">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="{{ route('admin.category.index') }}">Category</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="{{ route('admin.portfolio.index') }}">Portfolio</a></li>
-                </ul>
-              </div>
-            </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="{{ route('admin.service.index') }}">
                 <span class="menu-title">Services</span>
                 <i class="mdi mdi-format-list-bulleted menu-icon"></i>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ route('admin.skill.index') }}">
-                <span class="menu-title">Skills</span>
-                <i class="mdi mdi-puzzle menu-icon"></i>
-              </a>
-            </li>
+         
             <li class="nav-item">
               <a class="nav-link" href="{{ route('admin.review.index') }}">
                 <span class="menu-title">Reviews</span>
